@@ -26,8 +26,9 @@ function Captures() {
 
   return (
     <>
+     <GalleryNavBar />
     <Wrapper>
-        <GalleryNavBar />
+   
         <h3>Top Thirty Images</h3>
         <Splide options={{
             perPage: 3,
@@ -37,7 +38,7 @@ function Captures() {
             gap: '2.5rem',
             heightRatio: 33,
             padding: '2.5rem',
-            height: '15rem'  
+            height: '27rem'  
           }}>
               {captures.map((image) => {
                   return(
@@ -52,9 +53,10 @@ function Captures() {
                   )
               })}
         </Splide>
+        
     </Wrapper>
+    <GalleryFooter />
 
-<GalleryFooter />
 </>
   )
 }
@@ -69,6 +71,10 @@ const Card = styled.div`
     border-radius: 2rem;
     overflow: hidden;
     position: relative;
+    margin-top: 4rem;
+    
+    
+    
     download.url{
         border-radius: 2rem;
         position: absolute;
