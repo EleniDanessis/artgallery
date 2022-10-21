@@ -28,7 +28,7 @@ function ReactLandingPage() {
         <Container>
           <Navbar.Brand href="#home">Eleni Danessis</Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html">
+            <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html#">
               Home
             </Nav.Link>
             <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html#about">
