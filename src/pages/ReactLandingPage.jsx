@@ -34,7 +34,7 @@ function ReactLandingPage() {
             <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html#about">
               About
             </Nav.Link>
-            <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html#project">
+            <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html#projects">
               Projects
             </Nav.Link>
             <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html#collaborate">
