@@ -20,8 +20,10 @@ import { SiStyledcomponents,} from "react-icons/si";
 import {BsFillArrowUpCircleFill} from 'react-icons/bs'
 import { Link } from "react-router-dom";
 
+
 function ReactLandingPage() {
   return (
+    
     // Nav Bar
     <div className="bg-info text-dark bg-opacity-50 ">
       <Navbar bg="secondary" variant="dark">
