@@ -28,16 +28,16 @@ function ReactLandingPage() {
         <Container>
           <Navbar.Brand href="#home">Eleni Danessis</Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html">
+            <Nav.Link href="https://elenidanessis.github.io/EleniDanessis3.2/">
               Home
             </Nav.Link>
-            <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html#about">
+            <Nav.Link href="https://elenidanessis.github.io/EleniDanessis3.2/#about">
               About
             </Nav.Link>
-            <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html#project">
+            <Nav.Link href="https://elenidanessis.github.io/EleniDanessis3.2/#projects">
               Projects
             </Nav.Link>
-            <Nav.Link href="https://https://elenidanessis.github.io/EleniDanessis3.2/index.html#collaborate">
+            <Nav.Link href="https://elenidanessis.github.io/EleniDanessis3.2/#collaborate">
               Collaborate
             </Nav.Link>
           </Nav>
@@ -64,7 +64,7 @@ function ReactLandingPage() {
                 or top 100 images. For more information on the images in the last 
                 two categories, click on them!
               </p>
-              <Button variant="info" href="./home">
+              <Button variant="info" href="/home">
                 <Card style={{ width: "18rem" }}>
                   <Card.Body className="bg-info text-light">
                     <Card.Title>
