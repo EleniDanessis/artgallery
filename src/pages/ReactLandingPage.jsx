@@ -64,23 +64,26 @@ function ReactLandingPage() {
                 or top 100 images. For more information on the images in the last 
                 two categories, click on them!
               </p>
-              <Button variant="info" href="/home">
-                <Card style={{ width: "18rem" }}>
-                  <Card.Body className="bg-info text-light">
-                    <Card.Title>
-                      <AiOutlinePicture class="h1" />
-                      <h3 class="button-title mb-3">
-                         Gallery
-                      </h3>
-                    </Card.Title>
-                    <Card.Text>
-                      <p class="button-text lead">
-                        Click here to see my React Gallery project
-                      </p>   
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Button>
+              <Link to={"/home"}>
+                <Button variant="info">
+                  <Card style={{ width: "18rem" }}>
+                    <Card.Body className="bg-info text-light">
+                      <Card.Title>
+                        <AiOutlinePicture class="h1" />
+                        <h3 class="button-title mb-3">
+                          Gallery
+                        </h3>
+                      </Card.Title>
+                      <Card.Text>
+                        <p class="button-text lead">
+                          Click here to see my React Gallery project
+                        </p>   
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Button>
+              </Link>
+              
               
             </div>
             <img
