@@ -26,7 +26,7 @@ function ReactLandingPage() {
     <div className="bg-info text-dark bg-opacity-50 ">
       <Navbar bg="secondary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Eleni Danessis</Navbar.Brand>
+          <Navbar.Brand href="#">Eleni Danessis</Navbar.Brand>
           <Nav className="ms-auto">
             <Nav.Link href="https://elenidanessis.github.io/EleniDanessis3.2/">
               Home
